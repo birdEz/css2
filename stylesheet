@@ -1,3 +1,66 @@
-.chat-wrapper {font-family:sans-serif!important
+credit to Aiden Wallis, these are just minor changes. https://aidenwallis.co.uk/modchat-stylesheets/twitchreset.css
+-------------------------------------------------------------------
 
-;font-size:12px;background:#0e0c13!important}.chat-line-wrapper{padding:5px 10px 7px!important}.chat-line-wrapper img.chat-line-badge{margin:0 3px -2px 0!important}.chat-line-wrapper img.chat-line-badge:last-child{margin:0 0 -2px!important}body.theme-dark .chat-input-box textarea{background:#0e0c13!important;padding:5px 60px 5px 10px!important;border:1px solid #392e5c;color:#faf9fa}body.theme-dark .chat-input-box textarea:focus{border-color:#7d5bbe;box-shadow:0 0 6px -2px #7d5bbe}body.theme-dark .chat-container{background:#0e0c13!important}.chat-line:nth-child(2n+0){background:rgba(255,255,255,.05)!important}.chat-line{border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid #000}.chat-input-box{padding:1rem 2rem 2rem}.chat-line-username{font-weight:700}body.theme-dark .chat-container .chat-line-mod-button-label{font-size:16px;color:#898395!important;margin-right:3px}body.theme-dark .chat-container .chat-line-mod-button-label:hover{color:#dad8de!important}.chat-line-wrapper img.emote{}.emote-menu-button{right:21px!important;bottom:44px!important}.emote-menu-button .md-button.md-icon-button md-icon.md-dark-theme{font-size:20px}
+.chat-wrapper {
+	font-family: sans-serif !important;
+	font-size: 12px;
+	background: #0e0c13!important;
+}
+
+.chat-line-wrapper {
+	padding: 5px 10px 7px !important
+}
+
+.chat-line-wrapper img.chat-line-badge {
+	margin: 0 3px -2px 0 !important;
+}
+.chat-line-wrapper img.chat-line-badge:last-child {
+	margin: 0 0 -2px 0 !important;
+}
+
+body.theme-dark .chat-input-box textarea {
+	background: #0e0c13!important;
+	padding: 5px 60px 5px 10px !important;
+	border: 1px solid #392e5c;
+	color: #faf9fa;
+}
+body.theme-dark .chat-input-box textarea:focus {
+	border-color: #7d5bbe;
+	box-shadow: 0 0 6px -2px #7d5bbe;
+}
+
+
+body.theme-dark .chat-container {
+	background: #0e0c13!important;
+}
+
+.chat-line:nth-child(2n+0) {
+	background: rgba(255, 255, 255, 0.05) !important;
+}
+
+.chat-input-box {
+	padding: 1rem 2rem 2rem 2rem;
+}
+
+.chat-line-username {
+	font-weight: 700;
+}
+body.theme-dark .chat-container .chat-line-mod-button-label {
+	font-size: 16px;
+	color: #898395 !important;
+	margin-right: 3px;
+}
+body.theme-dark .chat-container .chat-line-mod-button-label:hover {
+	color: rgb(218, 216, 222) !important;
+}
+.chat-line-wrapper img.emote {
+	max-height: 28px;
+}
+.emote-menu-button {
+	right: 21px !important;
+	bottom: 44px !important;
+}
+
+.emote-menu-button .md-button.md-icon-button md-icon.md-dark-theme {
+	font-size: 20px;
+}
