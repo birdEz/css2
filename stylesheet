@@ -35,6 +35,12 @@ body.theme-dark .chat-container {
 	background: rgba(255, 255, 255, 0.05) !important;
 }
 
+.chat-line {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	
+}
+
+
 .chat-input-box {
 	padding: 1rem 2rem 2rem 2rem;
 }
