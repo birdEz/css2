@@ -35,7 +35,7 @@ body.theme-dark .chat-container {
 	background: rgba(255, 255, 255, 0.05) !important;
 }
 .chat-line {
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 }
 
